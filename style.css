@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:700&display=swap');
+
+/*reset */
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+/* Design details */
+body {
+    max-width: 900px;
+    margin: auto;
+    color: #444;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    margin-bottom: 100px;
+    overflow-x: hidden;
+}
+
+h1 {
+
+ font-family: 'Montserrat', sans-serif;
+ line-height: 0.9;
+ text-shadow: 0 10px 30px rgba(0, 0, 100, .85);
+ padding-top: 5%;
+ padding-bottom: 20vw;
+ color: white;
+ font-size: 4.5vw;
+ text-align: center;
+ text-shadow: 0 10px 30px rgba(0, 0, 100, .85)  top center;
+    background-image: url('roberto-sorin-RS0-h_pyByk-unsplash.jpg');
+background-size: cobackground-size 30%    color #fff; 
+}
+
+
+
+span {padding: 40%}
+
+img {
+ width: 100%;
+ display: block;
+}
+
+figcaption {
+ font-size: 12px;
+ position: relative;
+ height: 2em;
+ line-height: 2em;
+ top: -2em;
+ padding-right: 2em;
+ color: white;
+ background-color: black;
+ text-align: right;
+}
+
+h2{
+ margin:25px;
+ color: #444;
+ font-family: 'Playfair Display', serif;
+ margin-bottom: 30px;
+ text-align: center;
+ text-transform: uppercase; 
+ font-weight: bold;
+ font-size: 95%;
+ color:DarkOliveGreen; 
+ letter-spacing: 3px;
+ line-height: 1.8;
+}
+
+p {
+ line-height: 1.8;
+ padding: 10px 20px;
+ background-color: rgba(255, 255, 255, 0.6);
+}
+
+p strong{text-transform: uppercase; font-weight: bold;font-size: 85%; color:DarkGreen; letter-spacing: 3px;}
+
+ul {
+ display: flex;
+ list-style-type: none;
+ justify-content: space-around;
+ flex-wrap:wrap;
+}
+
+li {
+ width: 25%;
+}
+
+li > img {
+ width: 100%;
+ height: 100%;
+ object-fit: cover;
+}
